@@ -8,14 +8,13 @@ string pathResultado = directorio + "resultado.txt";
 string[] textoArray = File.ReadAllLines(directorio + "cuento.txt");
 string texto = "";
 string resultadoFinalTexto = "";
-string nombrePersonaje = "bitin";
+string nombrePersonaje = "Bitin";
 string metaCadena = "un tesoro escondido";
 string variante1 = "mundo";
 string variante2 = "nube";
 
 
-// Se crea el arhivo.
-System.IO.File.WriteAllText(pathResultado, "");
+
 
 for (int i = 0; i < textoArray.Length; i++)
 {
@@ -30,7 +29,7 @@ resultadoFinalTexto += $"1.Concat(): Se une el nombre del personaje {nombrePerso
 resultadoFinalTexto += "2.Join(): Se separa el cuento por oraciones con . y se une con | .\n" + string.Join(".",texto) + "\n\n";
 
 // Format()
-resultadoFinalTexto += "3.Format(): Se muestra información en consola.\n" +  "\n\n";
+resultadoFinalTexto += "3.Format(): Se muestra información en consola.\n" + string.Format("El cuento tiene {0} caracteres y {1} palabras.", texto.Length, texto.Split(' ').Length) + "\n\n";
 
 // Interpolation()
 resultadoFinalTexto += $"4.Interpolation(): Se muestra un mensaje interpolado.\nEl protagonista es {nombrePersonaje} y busca {metaCadena}\n\n";
@@ -136,3 +135,5 @@ resultadoFinalTexto += "28.ToLoweInvariant(): Convierte una palabra a minúscula
 resultadoFinalTexto += "29.ToUpperInvariant(): Convierte una palabra a mayúscula.\n" + "bitin".ToUpperInvariant() + "\n\n";
 
 Console.WriteLine(resultadoFinalTexto);
+// Se crea el arhivo.
+System.IO.File.WriteAllText(pathResultado, resultadoFinalTexto);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetodosCadenas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64c6e74dc3f444d708d5f097101bf10c54e3c22f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9756abaea6667aa7e2313a508d9a008effe5a5da")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetodosCadenas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetodosCadenas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
