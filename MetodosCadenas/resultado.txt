@@ -1,0 +1,91 @@
+1.Concat(): Se une el nombre del personaje Bitín con la palabra explorador.
+En el vasto universo del mundo binario, donde solo existían ceros y unos, se levantaban ciudades luminosas construidas con bits que danzaban en perfecta armonía. Cada calle estaba formada por largas cadenas de código que brillaban como estrellas digitales, y los habitantes, pequeños algoritmos curiosos, recorrían los circuitos buscando dar sentido a sus vidas. Allí, todo lo que existía estaba gobernado por el flujo de información: la corriente eléctrica que encendía el mundo y el silencio que lo apagaba. En una de esas ciudades habitaba Bitín explorador, un joven programa que soñaba con explorar más allá de los límites de su servidor. Mientras otros se conformaban con repetir operaciones matemáticas, él deseaba descubrir qué había al otro lado del gran firewall, esa muralla invisible que protegía al mundo binario de amenazas externas. Su curiosidad lo llevó a descifrar viejos fragmentos de código olvidados, que hablaban de un lugar mítico llamado “la Nube”, donde los ceros y unos podían transformarse en ideas infinitas. Un día, armado de valor y con un puñado de claves encriptadas que había encontrado, Bitín explorador atravesó la barrera. Del otro lado descubrió paisajes jamás imaginados: ríos de datos en constante movimiento, mares de información sin límites y criaturas hechas de algoritmos que nunca había visto. Comprendió entonces que el mundo binario era solo una pequeña parte de algo mucho más grande: un universo digital sin fin, en el que su misión sería guiar a otros programas hacia la libertad de explorar y evolucionar más allá de los confines de los ceros y unos.
+
+2.Join(): Se separa el cuento por oraciones con . y se une con | .
+En el vasto universo del mundo binario, donde solo existían ceros y unos, se levantaban ciudades luminosas construidas con bits que danzaban en perfecta armonía | Cada calle estaba formada por largas cadenas de código que brillaban como estrellas digitales, y los habitantes, pequeños algoritmos curiosos, recorrían los circuitos buscando dar sentido a sus vidas | Allí, todo lo que existía estaba gobernado por el flujo de información: la corriente eléctrica que encendía el mundo y el silencio que lo apagaba | En una de esas ciudades habitaba Bitín, un joven programa que soñaba con explorar más allá de los límites de su servidor | Mientras otros se conformaban con repetir operaciones matemáticas, él deseaba descubrir qué había al otro lado del gran firewall, esa muralla invisible que protegía al mundo binario de amenazas externas | Su curiosidad lo llevó a descifrar viejos fragmentos de código olvidados, que hablaban de un lugar mítico llamado “la Nube”, donde los ceros y unos podían transformarse en ideas infinitas | Un día, armado de valor y con un puñado de claves encriptadas que había encontrado, Bitín atravesó la barrera | Del otro lado descubrió paisajes jamás imaginados: ríos de datos en constante movimiento, mares de información sin límites y criaturas hechas de algoritmos que nunca había visto | Comprendió entonces que el mundo binario era solo una pequeña parte de algo mucho más grande: un universo digital sin fin, en el que su misión sería guiar a otros programas hacia la libertad de explorar y evolucionar más allá de los confines de los ceros y unos |
+
+3.Format(): Se muestra información en consola.
+El cuento tiene 1577 caracteres y 255 palabras.
+
+4.Interpolation(): Se muestra un mensaje interpolado.
+El protagonista es Bitín y busca un tesoro escondido
+
+5.ToString(): Convierte unn número en cadena.
+La longitud del cuento es de 1577
+
+6.IndexOf(): Encuentra la primera posición en donde aparece la palabra mundo.
+La posición de la palabra mundo es en 25
+
+7.LastIndexOf(): Encuentra la ultima posición en donde aparece la palabra ceros.
+La posición de la palabra ceros es en 1564
+
+8.Contains(): Verifica si contiene la palabra nube.
+No contiene la palabra nube
+
+9.StartsWith(): Comprueba si empieza con El vasto universo.
+No empieza con El vasto universo
+
+10.EndssWith(): Comprueba si termina con ceros y unos.
+Si termina con ceros y unos.
+
+11.Substring(): Extraer la palabra 'ciudades luminosas'.
+ciudades luminosas
+
+12.Remove(): Elimina los 15 primeros carácteres.
+verso del mundo binario, donde solo existían ceros y unos, se levantaban ciudades luminosas construidas con bits que danzaban en perfecta armonía. Cada calle estaba formada por largas cadenas de código que brillaban como estrellas digitales, y los habitantes, pequeños algoritmos curiosos, recorrían los circuitos buscando dar sentido a sus vidas. Allí, todo lo que existía estaba gobernado por el flujo de información: la corriente eléctrica que encendía el mundo y el silencio que lo apagaba. En una de esas ciudades habitaba Bitín, un joven programa que soñaba con explorar más allá de los límites de su servidor. Mientras otros se conformaban con repetir operaciones matemáticas, él deseaba descubrir qué había al otro lado del gran firewall, esa muralla invisible que protegía al mundo binario de amenazas externas. Su curiosidad lo llevó a descifrar viejos fragmentos de código olvidados, que hablaban de un lugar mítico llamado “la Nube”, donde los ceros y unos podían transformarse en ideas infinitas. Un día, armado de valor y con un puñado de claves encriptadas que había encontrado, Bitín atravesó la barrera. Del otro lado descubrió paisajes jamás imaginados: ríos de datos en constante movimiento, mares de información sin límites y criaturas hechas de algoritmos que nunca había visto. Comprendió entonces que el mundo binario era solo una pequeña parte de algo mucho más grande: un universo digital sin fin, en el que su misión sería guiar a otros programas hacia la libertad de explorar y evolucionar más allá de los confines de los ceros y unos.
+
+13.Replace(): Sustituye las apariciones de Bitín por ProgramaX.
+En el vasto universo del mundo binario, donde solo existían ceros y unos, se levantaban ciudades luminosas construidas con bits que danzaban en perfecta armonía. Cada calle estaba formada por largas cadenas de código que brillaban como estrellas digitales, y los habitantes, pequeños algoritmos curiosos, recorrían los circuitos buscando dar sentido a sus vidas. Allí, todo lo que existía estaba gobernado por el flujo de información: la corriente eléctrica que encendía el mundo y el silencio que lo apagaba. En una de esas ciudades habitaba ProgramaX, un joven programa que soñaba con explorar más allá de los límites de su servidor. Mientras otros se conformaban con repetir operaciones matemáticas, él deseaba descubrir qué había al otro lado del gran firewall, esa muralla invisible que protegía al mundo binario de amenazas externas. Su curiosidad lo llevó a descifrar viejos fragmentos de código olvidados, que hablaban de un lugar mítico llamado “la Nube”, donde los ceros y unos podían transformarse en ideas infinitas. Un día, armado de valor y con un puñado de claves encriptadas que había encontrado, ProgramaX atravesó la barrera. Del otro lado descubrió paisajes jamás imaginados: ríos de datos en constante movimiento, mares de información sin límites y criaturas hechas de algoritmos que nunca había visto. Comprendió entonces que el mundo binario era solo una pequeña parte de algo mucho más grande: un universo digital sin fin, en el que su misión sería guiar a otros programas hacia la libertad de explorar y evolucionar más allá de los confines de los ceros y unos.
+
+14.Insert(): Inserta la palabra 'IMPORTANTE' después de la palabra 'firewall'.
+En el vasto universo del mundo binario, donde solo existían ceros y unos, se levantaban ciudades luminosas construidas con bits que danzaban en perfecta armonía. Cada calle estaba formada por largas cadenas de código que brillaban como estrellas digitales, y los habitantes, pequeños algoritmos curiosos, recorrían los circuitos buscando dar sentido a sus vidas. Allí, todo lo que existía estaba gobernado por el flujo de información: la corriente eléctrica que encendía el mundo y el silencio que lo apagaba. En una de esas ciudades habitaba Bitín, un joven programa que soñaba con explorar más allá de los límites de su servidor. Mientras otros se conformaban con repetir operaciones matemáticas, él deseaba descubrir qué había al otro lado del gran firewall IMPORTANTE , esa muralla invisible que protegía al mundo binario de amenazas externas. Su curiosidad lo llevó a descifrar viejos fragmentos de código olvidados, que hablaban de un lugar mítico llamado “la Nube”, donde los ceros y unos podían transformarse en ideas infinitas. Un día, armado de valor y con un puñado de claves encriptadas que había encontrado, Bitín atravesó la barrera. Del otro lado descubrió paisajes jamás imaginados: ríos de datos en constante movimiento, mares de información sin límites y criaturas hechas de algoritmos que nunca había visto. Comprendió entonces que el mundo binario era solo una pequeña parte de algo mucho más grande: un universo digital sin fin, en el que su misión sería guiar a otros programas hacia la libertad de explorar y evolucionar más allá de los confines de los ceros y unos.
+
+15.PadLeft(): Rellena la palabra Bitín a la izquierda hasta tener 10 caráracteres.
+En el vasto universo del mundo binario, donde solo existían ceros y unos, se levantaban ciudades luminosas construidas con bits que danzaban en perfecta armonía. Cada calle estaba formada por largas cadenas de código que brillaban como estrellas digitales, y los habitantes, pequeños algoritmos curiosos, recorrían los circuitos buscando dar sentido a sus vidas. Allí, todo lo que existía estaba gobernado por el flujo de información: la corriente eléctrica que encendía el mundo y el silencio que lo apagaba. En una de esas ciudades habitaba      Bitín, un joven programa que soñaba con explorar más allá de los límites de su servidor. Mientras otros se conformaban con repetir operaciones matemáticas, él deseaba descubrir qué había al otro lado del gran firewall, esa muralla invisible que protegía al mundo binario de amenazas externas. Su curiosidad lo llevó a descifrar viejos fragmentos de código olvidados, que hablaban de un lugar mítico llamado “la Nube”, donde los ceros y unos podían transformarse en ideas infinitas. Un día, armado de valor y con un puñado de claves encriptadas que había encontrado,      Bitín atravesó la barrera. Del otro lado descubrió paisajes jamás imaginados: ríos de datos en constante movimiento, mares de información sin límites y criaturas hechas de algoritmos que nunca había visto. Comprendió entonces que el mundo binario era solo una pequeña parte de algo mucho más grande: un universo digital sin fin, en el que su misión sería guiar a otros programas hacia la libertad de explorar y evolucionar más allá de los confines de los ceros y unos.
+
+16.PadRight(): Rellena la palabra Bitín a la derecha hasta tener 12 caráracteres.
+En el vasto universo del mundo binario, donde solo existían ceros y unos, se levantaban ciudades luminosas construidas con bits que danzaban en perfecta armonía. Cada calle estaba formada por largas cadenas de código que brillaban como estrellas digitales, y los habitantes, pequeños algoritmos curiosos, recorrían los circuitos buscando dar sentido a sus vidas. Allí, todo lo que existía estaba gobernado por el flujo de información: la corriente eléctrica que encendía el mundo y el silencio que lo apagaba. En una de esas ciudades habitaba Bitín       , un joven programa que soñaba con explorar más allá de los límites de su servidor. Mientras otros se conformaban con repetir operaciones matemáticas, él deseaba descubrir qué había al otro lado del gran firewall, esa muralla invisible que protegía al mundo binario de amenazas externas. Su curiosidad lo llevó a descifrar viejos fragmentos de código olvidados, que hablaban de un lugar mítico llamado “la Nube”, donde los ceros y unos podían transformarse en ideas infinitas. Un día, armado de valor y con un puñado de claves encriptadas que había encontrado, Bitín        atravesó la barrera. Del otro lado descubrió paisajes jamás imaginados: ríos de datos en constante movimiento, mares de información sin límites y criaturas hechas de algoritmos que nunca había visto. Comprendió entonces que el mundo binario era solo una pequeña parte de algo mucho más grande: un universo digital sin fin, en el que su misión sería guiar a otros programas hacia la libertad de explorar y evolucionar más allá de los confines de los ceros y unos.
+
+17.Trim(): Toma un fragmento con espacios extra ' firewall ' y elimina los espacios.
+firewall
+
+18.TrimStart(): Elimina solo los espacios iniciales de la frase 'Mundo binario'.
+mundo binario
+
+20.Split(): Divide el cuento en palabras individuales y muestra las primeras 10.
+En
+el
+vasto
+universo
+del
+mundo
+binario,
+donde
+solo
+existían
+
+21.Equals(): Compara Nube y nube.
+No son iguales
+
+22.Compare(): Compara Bitín y firewall e indica quien va primero.
+Bitin va primero.
+23.CompareTo(): Aplicar compareTo() y explicar el resultado númerico.
+Es mayor que cero, alfabéticamente el cuento va después del nombre bitín.
+24.IsNullorEmpty(): Declara cadena vacia y verifica si lo es.
+Si es una cadena vacia.
+
+25.IsNullOrWhiteSpace(): Declara cadena con solo un espacio y verifica.
+Contiene un espacio.
+
+26.ToLower(): Se convierte el cuento a minúsculas.
+en el vasto universo del mundo binario, donde solo existían ceros y unos, se levantaban ciudades luminosas construidas con bits que danzaban en perfecta armonía. cada calle estaba formada por largas cadenas de código que brillaban como estrellas digitales, y los habitantes, pequeños algoritmos curiosos, recorrían los circuitos buscando dar sentido a sus vidas. allí, todo lo que existía estaba gobernado por el flujo de información: la corriente eléctrica que encendía el mundo y el silencio que lo apagaba. en una de esas ciudades habitaba bitín, un joven programa que soñaba con explorar más allá de los límites de su servidor. mientras otros se conformaban con repetir operaciones matemáticas, él deseaba descubrir qué había al otro lado del gran firewall, esa muralla invisible que protegía al mundo binario de amenazas externas. su curiosidad lo llevó a descifrar viejos fragmentos de código olvidados, que hablaban de un lugar mítico llamado “la nube”, donde los ceros y unos podían transformarse en ideas infinitas. un día, armado de valor y con un puñado de claves encriptadas que había encontrado, bitín atravesó la barrera. del otro lado descubrió paisajes jamás imaginados: ríos de datos en constante movimiento, mares de información sin límites y criaturas hechas de algoritmos que nunca había visto. comprendió entonces que el mundo binario era solo una pequeña parte de algo mucho más grande: un universo digital sin fin, en el que su misión sería guiar a otros programas hacia la libertad de explorar y evolucionar más allá de los confines de los ceros y unos.
+
+27.ToUpper(): Se convierte el cuento a mayúsculas.
+EN EL VASTO UNIVERSO DEL MUNDO BINARIO, DONDE SOLO EXISTÍAN CEROS Y UNOS, SE LEVANTABAN CIUDADES LUMINOSAS CONSTRUIDAS CON BITS QUE DANZABAN EN PERFECTA ARMONÍA. CADA CALLE ESTABA FORMADA POR LARGAS CADENAS DE CÓDIGO QUE BRILLABAN COMO ESTRELLAS DIGITALES, Y LOS HABITANTES, PEQUEÑOS ALGORITMOS CURIOSOS, RECORRÍAN LOS CIRCUITOS BUSCANDO DAR SENTIDO A SUS VIDAS. ALLÍ, TODO LO QUE EXISTÍA ESTABA GOBERNADO POR EL FLUJO DE INFORMACIÓN: LA CORRIENTE ELÉCTRICA QUE ENCENDÍA EL MUNDO Y EL SILENCIO QUE LO APAGABA. EN UNA DE ESAS CIUDADES HABITABA BITÍN, UN JOVEN PROGRAMA QUE SOÑABA CON EXPLORAR MÁS ALLÁ DE LOS LÍMITES DE SU SERVIDOR. MIENTRAS OTROS SE CONFORMABAN CON REPETIR OPERACIONES MATEMÁTICAS, ÉL DESEABA DESCUBRIR QUÉ HABÍA AL OTRO LADO DEL GRAN FIREWALL, ESA MURALLA INVISIBLE QUE PROTEGÍA AL MUNDO BINARIO DE AMENAZAS EXTERNAS. SU CURIOSIDAD LO LLEVÓ A DESCIFRAR VIEJOS FRAGMENTOS DE CÓDIGO OLVIDADOS, QUE HABLABAN DE UN LUGAR MÍTICO LLAMADO “LA NUBE”, DONDE LOS CEROS Y UNOS PODÍAN TRANSFORMARSE EN IDEAS INFINITAS. UN DÍA, ARMADO DE VALOR Y CON UN PUÑADO DE CLAVES ENCRIPTADAS QUE HABÍA ENCONTRADO, BITÍN ATRAVESÓ LA BARRERA. DEL OTRO LADO DESCUBRIÓ PAISAJES JAMÁS IMAGINADOS: RÍOS DE DATOS EN CONSTANTE MOVIMIENTO, MARES DE INFORMACIÓN SIN LÍMITES Y CRIATURAS HECHAS DE ALGORITMOS QUE NUNCA HABÍA VISTO. COMPRENDIÓ ENTONCES QUE EL MUNDO BINARIO ERA SOLO UNA PEQUEÑA PARTE DE ALGO MUCHO MÁS GRANDE: UN UNIVERSO DIGITAL SIN FIN, EN EL QUE SU MISIÓN SERÍA GUIAR A OTROS PROGRAMAS HACIA LA LIBERTAD DE EXPLORAR Y EVOLUCIONAR MÁS ALLÁ DE LOS CONFINES DE LOS CEROS Y UNOS.
+
+28.ToLoweInvariant(): Convierte una palabra a minúscula.
+nube
+
+29.ToUpperInvariant(): Convierte una palabra a mayúscula.
+BITÍN
+

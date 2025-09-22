@@ -1,20 +1,11 @@
 ﻿
-using System.ComponentModel.Design;
-using System.IO;
-
 string workingDirectory = Environment.CurrentDirectory; // Directorio del proyecto
 string directorio = Directory.GetParent(workingDirectory).Parent.Parent.FullName + "/";
 string pathResultado = directorio + "resultado.txt";
 string[] textoArray = File.ReadAllLines(directorio + "cuento.txt");
 string texto = "";
 string resultadoFinalTexto = "";
-string nombrePersonaje = "Bitin";
-string metaCadena = "un tesoro escondido";
-string variante1 = "mundo";
-string variante2 = "nube";
-
-
-
+string nombrePersonaje = "Bitín";
 
 for (int i = 0; i < textoArray.Length; i++)
 {
@@ -23,15 +14,16 @@ for (int i = 0; i < textoArray.Length; i++)
 
 //////////////////////////// SECCIÓN DE CREACIÓN Y CONVERSIÓN
 // Concat()
-resultadoFinalTexto += $"1.Concat(): Se une el nombre del personaje {nombrePersonaje} con la palabra explorador.\n" + string.Concat(nombrePersonaje," explorador") + "\n\n";
+resultadoFinalTexto += $"1.Concat(): Se une el nombre del personaje {nombrePersonaje} con la palabra explorador.\n" + texto.Replace(nombrePersonaje, string.Concat(nombrePersonaje," explorador")) + "\n\n";
 
 // Join()
-resultadoFinalTexto += "2.Join(): Se separa el cuento por oraciones con . y se une con | .\n" + string.Join(".",texto) + "\n\n";
+resultadoFinalTexto += "2.Join(): Se separa el cuento por oraciones con . y se une con | .\n" + string.Join(" |",texto.Split(".")) + "\n\n";
 
 // Format()
 resultadoFinalTexto += "3.Format(): Se muestra información en consola.\n" + string.Format("El cuento tiene {0} caracteres y {1} palabras.", texto.Length, texto.Split(' ').Length) + "\n\n";
 
 // Interpolation()
+string metaCadena = "un tesoro escondido";
 resultadoFinalTexto += $"4.Interpolation(): Se muestra un mensaje interpolado.\nEl protagonista es {nombrePersonaje} y busca {metaCadena}\n\n";
 
 // ToString()
@@ -57,9 +49,9 @@ resultadoFinalTexto += $"9.StartsWith(): Comprueba si empieza con {varianteStart
 if (texto.StartsWith(varianteLastIndex)) resultadoFinalTexto +=  $"Si empieza con {varianteStart}\n\n"; else resultadoFinalTexto += $"No empieza con {varianteStart}\n\n";
 
 // EndssWith()
-string varianteEnd = "ceros y unos";
-resultadoFinalTexto += $"10.EndssWith(): Comprueba si termina con {varianteEnd}.\n";
-if (texto.StartsWith(varianteEnd)) resultadoFinalTexto += $"Si termina con {varianteEnd}\n\n"; else resultadoFinalTexto += $"No termina con {varianteEnd}\n\n";
+string varianteEnd = "ceros y unos.";
+resultadoFinalTexto += $"10.EndssWith(): Comprueba si termina con {varianteEnd}\n";
+if (texto.EndsWith(varianteEnd)) resultadoFinalTexto += $"Si termina con {varianteEnd}\n\n"; else resultadoFinalTexto += $"No termina con {varianteEnd}\n\n";
 
 
 ///////////////////////////// SECCIÓN DE MANIPULACIÓN DE CONTENIDO
@@ -73,7 +65,7 @@ resultadoFinalTexto += "12.Remove(): Elimina los 15 primeros carácteres.\n" + t
 resultadoFinalTexto += $"13.Replace(): Sustituye las apariciones de {nombrePersonaje} por ProgramaX.\n" + texto.Replace(nombrePersonaje,"ProgramaX") + "\n\n";
 
 // Insert()
-resultadoFinalTexto += "14.Insert(): Inserta la palabra 'IMPORTANTE' después de la palabra 'firewall'.\n" + texto.Insert(texto.IndexOf("firewall"), " IMPORTANTE ") + "\n\n";
+resultadoFinalTexto += "14.Insert(): Inserta la palabra 'IMPORTANTE' después de la palabra 'firewall'.\n" + texto.Insert(texto.IndexOf("firewall") + "firewall".Length, " IMPORTANTE ") + "\n\n";
 
 // PadLeft()
 resultadoFinalTexto += $"15.PadLeft(): Rellena la palabra {nombrePersonaje} a la izquierda hasta tener 10 caráracteres.\n" + texto.Replace(nombrePersonaje,nombrePersonaje.PadLeft(10)) + "\n\n";
@@ -82,13 +74,13 @@ resultadoFinalTexto += $"15.PadLeft(): Rellena la palabra {nombrePersonaje} a la
 resultadoFinalTexto += $"16.PadRight(): Rellena la palabra {nombrePersonaje} a la derecha hasta tener 12 caráracteres.\n" + texto.Replace(nombrePersonaje,nombrePersonaje.PadRight(12)) + "\n\n";
 
 // Trim()
-resultadoFinalTexto += "17.Trim(): Toma un fragmento con espacios extra ' firewall ' y elimina los espacios.\n" + texto.Substring(texto.IndexOf(" firewall ")," firewall ".Length).Trim() + "\n\n";
+resultadoFinalTexto += "17.Trim(): Toma un fragmento con espacios extra ' firewall ' y elimina los espacios.\n" + texto.Substring(texto.IndexOf("firewall"),"firewall".Length).Trim() + "\n\n";
 
 // TrimStart()
-resultadoFinalTexto += "18.TrimStart(): Elimina solo los espacios iniciales de la frase 'Mundo binario'.\n" + texto.Substring(texto.IndexOf(" Mundo binario"), " Mundo binario".Length).TrimStart() + "\n\n";
+resultadoFinalTexto += "18.TrimStart(): Elimina solo los espacios iniciales de la frase 'Mundo binario'.\n" + texto.Substring(texto.IndexOf(" mundo binario"), " mundo binario".Length).TrimStart() + "\n\n";
 
 // TrimEnd()
-resultadoFinalTexto += "19.TrimEnd(): Elimina solo los espacios finales de la frase 'Bitin explorador'.\n" + texto.Substring(texto.IndexOf("Bitin explorador "), " Bitin explorador ".Length).TrimEnd() + "\n\n";
+//resultadoFinalTexto += "19.TrimEnd(): Elimina solo los espacios finales de la frase 'Bitín explorador'.\n" + texto.Substring(texto.IndexOf("Bitín explorador "), " Bitín explorador ".Length).TrimEnd() + "\n\n";
 
 // Split()
 string[] palabrasSplit = texto.Split(' ');
@@ -105,19 +97,41 @@ resultadoFinalTexto += "\n";
 // Equals()
 if ("Nube".Equals("nube")) resultadoFinalTexto += "21.Equals(): Compara Nube y nube.\nSon iguales\n\n"; else resultadoFinalTexto += "21.Equals(): Compara Nube y nube.\nNo son iguales\n\n";
 
-
 // Compare()
-resultadoFinalTexto += "22.Compare(): Compara bitin y firewall e indica quien va primero.\n" + texto.ToUpper() + "\n\n";
+resultadoFinalTexto += "22.Compare(): Compara Bitín y firewall e indica quien va primero.\n";
+if (string.Compare("firewall", nombrePersonaje) == 0) resultadoFinalTexto += "Ambas están en la misma posición.\n\n"; else
+{
+    if (string.Compare("firewall", nombrePersonaje) < 0)
+    {
+        resultadoFinalTexto += "Firewall va primero.\n\n";
+    }
+    else
+    {
+        resultadoFinalTexto += "Bitin va primero.\n\n";
+    }
+}
 
 // CompareTo()
-resultadoFinalTexto += "23.CompareTo(): Aplicar compareTo() y explicar el resultado númerico.\n" + texto.ToLowerInvariant() + "\n\n";
+resultadoFinalTexto += "23.CompareTo(): Aplicar compareTo() y explicar el resultado númerico.\n";
+if (texto.CompareTo(nombrePersonaje) == 0) resultadoFinalTexto += "Es igual a cero, alfabéticamente el cuento y el nombre bitín están en la misma posición.\n\n";
+else
+{
+    if (texto.CompareTo(nombrePersonaje) < 0)
+    {
+        resultadoFinalTexto += "Es menor que cero, alfabéticamente el cuento va antes del nombre bitín.\n\n";
+    }
+    else
+    {
+        resultadoFinalTexto += "Es mayor que cero, alfabéticamente el cuento va después del nombre bitín.\n\n";
+    }
+}
 
 // IsNullorEmpty()
-resultadoFinalTexto += "24.IsNullorEmpty(): Declara cadena vacia y verifica si lo es.\n" + texto.ToUpperInvariant() + "\n\n";
+resultadoFinalTexto += "24.IsNullorEmpty(): Declara cadena vacia y verifica si lo es.\n";
 if (string.IsNullOrEmpty("")) resultadoFinalTexto += "Si es una cadena vacia.\n\n"; else resultadoFinalTexto += "No es una cadena vacia.\n\n";
 
 // IsNullOrWhiteSpace()
-resultadoFinalTexto += "25.IsNullOrWhiteSpace(): Declara cadena con solo un espacio y verifica.\n" + texto.ToUpperInvariant() + "\n\n";
+resultadoFinalTexto += "25.IsNullOrWhiteSpace(): Declara cadena con solo un espacio y verifica.\n";
 if (string.IsNullOrWhiteSpace(" ")) resultadoFinalTexto += "Contiene un espacio.\n\n"; else resultadoFinalTexto += "No contiene un espacio.\n\n";
 
 
@@ -132,7 +146,7 @@ resultadoFinalTexto += "27.ToUpper(): Se convierte el cuento a mayúsculas.\n" +
 resultadoFinalTexto += "28.ToLoweInvariant(): Convierte una palabra a minúscula.\n" + "NUBE".ToLowerInvariant() + "\n\n";
 
 // ToUpperInvariant()
-resultadoFinalTexto += "29.ToUpperInvariant(): Convierte una palabra a mayúscula.\n" + "bitin".ToUpperInvariant() + "\n\n";
+resultadoFinalTexto += "29.ToUpperInvariant(): Convierte una palabra a mayúscula.\n" + "Bitín".ToUpperInvariant() + "\n\n";
 
 Console.WriteLine(resultadoFinalTexto);
 // Se crea el arhivo.
